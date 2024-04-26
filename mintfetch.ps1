@@ -435,4 +435,4 @@ write-output ''
 # Compatible with both Windows PowerShell & PowerShell Core
 # Author: @cuxdi
 #
-# [insert cool ascii art of 'mint-cli' in # # # graffiti style here]
+# [insert cool ascii art of 'mint-cli' in graffiti style here]
