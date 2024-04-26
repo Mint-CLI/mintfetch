@@ -1,9 +1,9 @@
 <#PSScriptInfo
-.VERSION 2.2.0
+.VERSION 0.0.1
 .GUID 1c26142a-da43-4125-9d70-97555cbb1752
-.DESCRIPTION DotFetch is a command-line system information utility for Windows written in PowerShell.
-.AUTHOR Evilprince2009
-.PROJECTURI https://github.com/evilprince2009/DotFetch
+.DESCRIPTION mintfetch is a command-line system information utility for Windows written in PowerShell, optimised for Mint CLI
+.AUTHOR cuxdi
+.PROJECTURI https://github.com/Mint-CLI/mintfetch
 .COMPANYNAME
 .COPYRIGHT
 .TAGS
@@ -16,9 +16,9 @@
 #>
 <#
 .SYNOPSIS
-    DotFetch - Neofetch for Windows in PowerShell 5+
+    mintfetch - Neofetch for Windows in Mint CLI
 .DESCRIPTION
-    DotFetch is a command-line system information utility for Windows written in PowerShell.
+    mintfetch is a command-line system information utility for Windows written in PowerShell.
 .PARAMETER image
     Display a pixelated image instead of the usual logo. Imagemagick required.
 .PARAMETER genconf
@@ -32,7 +32,7 @@
 .OUTPUTS
     System.String[]
 .NOTES
-    Run DotFetch without arguments to view core functionality.
+    Run mintfetch without arguments to view core functionality.
 #>
 [CmdletBinding()]
 param(
@@ -433,9 +433,6 @@ if ($logoctr -lt $img.Count) {
 write-output ''
 
 # Compatible with both Windows PowerShell & PowerShell Core
-# Author: Ibne Nahian (@evilprince2009)
+# Author: @cuxdi
 #
-#  ___ ___  ___
-# | __/ _ \| __|
-# | _| (_) | _|
-# |___\___/|_|
+# [insert cool ascii art of 'mint-cli' in # # # graffiti style here]
